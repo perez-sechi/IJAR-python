@@ -1,0 +1,15 @@
+matplotlib
+numpy
+xgboost
+scikit-learn
+shap
+ipykernel
+networkx
+nbconvert
+seaborn
+pingouin
+statsmodels
+notebook
+nbconvert
+setuptools
+pytest
