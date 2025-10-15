@@ -13,3 +13,4 @@ notebook
 nbconvert
 setuptools
 pytest
+cgt_perezsechi @ git+https://github.com/perez-sechi/cgt@main
