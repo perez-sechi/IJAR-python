@@ -57,21 +57,27 @@ IJAR-python/
     │   ├── nhanesi_rf_shap.ipynb
     │   ├── credit_xgboost_shap.ipynb
     │   └── credit_rf_shap.ipynb
-    └── visualization/                  # Network graph generation
-        ├── credit/
-        │   ├── rf/
-        │   │   ├── global_mean_network.ipynb
-        │   │   ├── risk_stratified_network.ipynb
-        │   │   ├── clustering_network.ipynb
-        │   │   ├── manual_segmentation_network.ipynb
-        │   │   └── median_iqr_network.ipynb
-        │   └── xgboost/
-        │       └── (same notebooks as rf/)
-        └── nhanesi/
-            ├── rf/
-            │   └── (same notebooks as above)
-            └── xgboost/
-                └── (same notebooks as above)
+    └── visualization/                  # Network graph generation (5 aggregation strategies × 4 dataset/model combinations)
+        ├── credit_rf_global_mean_network.ipynb
+        ├── credit_rf_risk_stratified_network.ipynb
+        ├── credit_rf_clustering_network.ipynb
+        ├── credit_rf_manual_segmentation_network.ipynb
+        ├── credit_rf_median_iqr_network.ipynb
+        ├── credit_xgboost_global_mean_network.ipynb
+        ├── credit_xgboost_risk_stratified_network.ipynb
+        ├── credit_xgboost_clustering_network.ipynb
+        ├── credit_xgboost_manual_segmentation_network.ipynb
+        ├── credit_xgboost_median_iqr_network.ipynb
+        ├── nhanesi_rf_global_mean_network.ipynb
+        ├── nhanesi_rf_risk_stratified_network.ipynb
+        ├── nhanesi_rf_clustering_network.ipynb
+        ├── nhanesi_rf_manual_segmentation_network.ipynb
+        ├── nhanesi_rf_median_iqr_network.ipynb
+        ├── nhanesi_xgboost_global_mean_network.ipynb
+        ├── nhanesi_xgboost_risk_stratified_network.ipynb
+        ├── nhanesi_xgboost_clustering_network.ipynb
+        ├── nhanesi_xgboost_manual_segmentation_network.ipynb
+        └── nhanesi_xgboost_median_iqr_network.ipynb
 ```
 
 ## Installation
