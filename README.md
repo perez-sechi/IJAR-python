@@ -149,9 +149,9 @@ The notebook defines the MMFS $\mathcal{MF} = (S, \mathcal{F})$ with $S = \{1, 2
 It then:
 
 - Computes the **MMFS relevance representation vectors** $v^k = \mathcal{R}_1^k(\mu^k) = Sh(\mu^k)$ (Definition 6) using `cgt_perezsechi.compute.shapley.exact`, yielding $v^1 = (0.3833, 0.2333, 0.3833)$ and $v^2 = (0.35, 0.275, 0.375)$.
-- Computes the **node weighting vector** $v_i^* = \mathcal{N}^*_i(v^1, v^2) = \text{mean}(Sh_i(\mu^1), Sh_i(\mu^2))$ (Definition 7), yielding $v^* = (0.3667, 0.2542, 0.3792)$.
+- Computes the **node weighting vector** $v_i^\* = \mathcal{N}^\*_i(v^1, v^2) = \text{mean}(Sh_i(\mu^1), Sh_i(\mu^2))$ (Definition 7), yielding $v^\* = (0.3667, 0.2542, 0.3792)$.
 - Computes the **MMFS interactions representation matrices** $M^k = \mathcal{R}_2^k(\mu^k) = I(\mu^k)$ (Definition 8) using `cgt_perezsechi.compute.grabisch`.
-- Computes the **edge weighting matrix** $e_{ij}^* = \mathcal{E}^*_{ij}(M^1, M^2) = \text{mean}(I_{ij}(\mu^1), I_{ij}(\mu^2))$ (Definition 9), yielding the aggregated $M^*$ shown in Example 3.
+- Computes the **edge weighting matrix** $e_{ij}^\* = \mathcal{E}^\*_{ij}(M^1, M^2) = \text{mean}(I_{ij}(\mu^1), I_{ij}(\mu^2))$ (Definition 9), yielding the aggregated $M^\*$ shown in Example 3.
 
 This is the only notebook that uses exact symbolic fuzzy measures rather than SHAP-derived ones.
 
